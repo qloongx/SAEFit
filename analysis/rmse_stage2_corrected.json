@@ -1,0 +1,9 @@
+{
+  "timing_rmse_pixels": 83.71612548828125,
+  "timing_rmse_periods": 1.3952687581380208,
+  "amplitude_rmse_p1_raw": 38802.71875,
+  "amplitude_rmse_p1_normalized": 1.55210875,
+  "amplitude_rmse_p2_raw": 9516.7392578125,
+  "amplitude_rmse_p2_normalized": 0.3806695703125,
+  "n_samples": 112000
+}

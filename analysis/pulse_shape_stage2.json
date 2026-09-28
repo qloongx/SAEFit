@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "checkpoint": "results/continuation-amplitude-stage2/09-22__17-14-55---dataset_Pulse_SAEFit/checkpoints/SAEFit-Continuation-Amplitude-epoch=099-val_loss=0.001.ckpt",
+    "shape_variations_tested": [
+      "baseline"
+    ],
+    "factors_tested": [
+      0.9,
+      1.0,
+      1.1
+    ],
+    "timing_factor": 60.0,
+    "amplitude_factor": 25000.0,
+    "note": "Shape variation testing requires access to pulse generation model. This version tests baseline only."
+  },
+  "results": [
+    {
+      "shape_type": "baseline",
+      "factor": 1.0,
+      "n_samples": 112000,
+      "classification": {
+        "accuracy": 0.9999821428571428,
+        "n_errors": 2
+      },
+      "timing": {
+        "t1_rmse": 0.012962963432073593,
+        "t2_rmse": 1.3900339603424072,
+        "t1_mae": 0.012962966226041317,
+        "t2_mae": 1.1510734558105469
+      },
+      "amplitude": {
+        "a1_rmse": 1.5525765419006348,
+        "a2_rmse": 0.38075903058052063,
+        "a1_mae": 0.9892803430557251,
+        "a2_mae": 0.36917051672935486,
+        "a1_rel_error": 0.9960466623306274,
+        "a2_rel_error": 0.9984150528907776
+      },
+      "joint": {
+        "joint_error": 1.1560444831848145
+      }
+    }
+  ],
+  "baseline": {
+    "shape_type": "baseline",
+    "factor": 1.0,
+    "n_samples": 112000,
+    "classification": {
+      "accuracy": 0.9999821428571428,
+      "n_errors": 2
+    },
+    "timing": {
+      "t1_rmse": 0.012962963432073593,
+      "t2_rmse": 1.3900339603424072,
+      "t1_mae": 0.012962966226041317,
+      "t2_mae": 1.1510734558105469
+    },
+    "amplitude": {
+      "a1_rmse": 1.5525765419006348,
+      "a2_rmse": 0.38075903058052063,
+      "a1_mae": 0.9892803430557251,
+      "a2_mae": 0.36917051672935486,
+      "a1_rel_error": 0.9960466623306274,
+      "a2_rel_error": 0.9984150528907776
+    },
+    "joint": {
+      "joint_error": 1.1560444831848145
+    }
+  }
+}
